@@ -1,3 +1,15 @@
+/*   colors: {
+    red: '#EA4335',
+    redLight: '#ee6459',
+    blue: '#4285F4',
+    blueLight: '#5591f5',
+    yellow: '#FBBC04',
+    yellowLight: '#fcd151',
+    green: '#0F9D58',
+    greenLight: '#11b465',
+    blueExtraLight: '#e9f1fe',
+    lightGrey: '#eee',
+  } */
 body {
   color: #555555;
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
@@ -42,36 +54,27 @@ body h2 {
 .SocialLink img { width: 24px;}
 .SocialLink img:hover { filter: opacity(80%); }
 
-/* sc-component-id: AnchorButton__StyledButton-sc-1553czf-0 */
-.iDfVNo {
-  background-color: #4285F4;
-  color: white;
+/* Anchor Buttons */
+.AnchorButton__StyledButton {
   padding: 0.5em 1em;
   -webkit-text-decoration: none;
   text-decoration: none; }
-.iDfVNo:hover { background-color: #5591f5; }
-.HfAIM {
+.AnchorButton__StyledButton:hover { filter: opacity(90%); }
+.BlueWhite {
   background-color: #4285F4;
-  color: white;
-  padding: 0.5em 1em;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  font-size: 0.75em; }
-.HfAIM:hover { background-color: #5591f5; }
-.hGEwuJ {
+  color: white;}
+.WhiteGreen {
   background-color: white;
-  color: #0F9D58;
-  padding: 0.5em 1em;
-  -webkit-text-decoration: none;
-  text-decoration: none; }
-.hGEwuJ:hover { background-color: #eee; }
-.hOrpnL {
+  color: #0F9D58; }
+.WhiteBlue {
+  background-color: white;
+  color: #4285F4; }
+.RedWhite {
   background-color: #EA4335;
-  color: white;
-  padding: 0.5em 1em;
-  -webkit-text-decoration: none;
-  text-decoration: none; }
-.hOrpnL:hover { background-color: #ee6459; }
+  color: white; }
+.WhiteRed {
+  background-color: #FFFFFF;
+  color: #EA4335; }
 
 /* sc-component-id: Layout__Main-sc-1cc85ax-0 */
 .ecmTAC {
