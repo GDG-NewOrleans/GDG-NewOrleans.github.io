@@ -76,6 +76,20 @@ body h2 {
   background-color: #FFFFFF;
   color: #EA4335; }
 
+/* Buttons */
+.StyledButton {
+  border: none;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  padding: 0.5em 1em;
+  outline: none; }
+.StyledButton:hover { filter: opacity(90%); }
+
+/* Forms */
+input {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  padding: 0.5em 1em; }
+
 /* sc-component-id: Layout__Main-sc-1cc85ax-0 */
 .ecmTAC {
   display: -webkit-box;
